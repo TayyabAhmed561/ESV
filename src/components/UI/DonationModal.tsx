@@ -1,8 +1,6 @@
 import React, { useState } from 'react';
 import { X, Heart, DollarSign, User, Mail, MessageSquare, Shield, Loader2 } from 'lucide-react';
 import { Species } from '../../types/species';
-import { supabase } from '../../lib/supabase';
-import { stripe } from '../../lib/stripe';
 
 interface DonationModalProps {
   isOpen: boolean;
@@ -56,32 +54,15 @@ const DonationModal: React.FC<DonationModalProps> = ({ isOpen, onClose, species 
         return;
       }
 
-      // Create checkout session
-      const { data, error: functionError } = await supabase.functions.invoke('create-checkout-session', {
-        body: {
-          amount: finalAmount,
-          currency: 'usd',
-          donorEmail: donorEmail.trim(),
-          donorName: donorName.trim() || null,
-          speciesId: species?.id || null,
-          message: message.trim() || null,
-          anonymous,
-        },
-      });
-
-      if (functionError) {
-        throw new Error(functionError.message);
-      }
-
-      if (!data?.url) {
-        throw new Error('Failed to create checkout session');
-      }
-
-      // Redirect to Stripe Checkout
-      window.location.href = data.url;
+      // Simulate donation processing
+      await new Promise(resolve => setTimeout(resolve, 2000));
+      
+      // Show success message
+      alert('Thank you for your donation! This is a demo - no actual payment was processed.');
+      onClose();
     } catch (err) {
       console.error('Donation error:', err);
-      setError(err instanceof Error ? err.message : 'Failed to process donation');
+      setError('Failed to process donation. This is a demo application.');
       setIsLoading(false);
     }
   };
@@ -115,6 +96,13 @@ const DonationModal: React.FC<DonationModalProps> = ({ isOpen, onClose, species 
 
         {/* Content */}
         <div className="p-6 space-y-6">
+          {/* Demo Notice */}
+          <div className="bg-blue-50 border border-blue-200 rounded-lg p-4">
+            <p className="text-blue-800 text-sm">
+              <strong>Demo Mode:</strong> This is a demonstration. No actual payments will be processed.
+            </p>
+          </div>
+
           {/* Species Info */}
           {species && (
             <div className="bg-emerald-50 p-4 rounded-lg border border-emerald-200">
@@ -270,7 +258,7 @@ const DonationModal: React.FC<DonationModalProps> = ({ isOpen, onClose, species 
               </span>
             </div>
             <p className="text-xs text-gray-500 mt-2">
-              Your donation will be processed securely through Stripe. You'll receive a receipt via email.
+              This is a demo application. No actual payment will be processed.
             </p>
           </div>
 
@@ -296,7 +284,7 @@ const DonationModal: React.FC<DonationModalProps> = ({ isOpen, onClose, species 
               ) : (
                 <>
                   <Heart className="w-4 h-4" />
-                  Donate Now
+                  Donate Now (Demo)
                 </>
               )}
             </button>
