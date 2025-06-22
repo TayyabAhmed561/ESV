@@ -1,0 +1,1087 @@
+[
+  {
+    "category": "Amphibians (frogs, toads and salamanders)",
+    "name": "Allegheny Mountain Dusky Salamander",
+    "status": "Endangered",
+    "summary": "The Allegheny Mountain Dusky Salamander is a small salamander found in forested mountain streams. In Ontario, it is restricted to the Niagara Gorge. It is considered endangered due to its extremely small habitat range and threats from habitat loss and pollution.",
+    "coordinates": [-79.06, 43.12],
+    "modelPath": "/models/allegheny-mountain-dusky-salamander.glb"
+  },
+  {
+    "category": "Amphibians (frogs, toads and salamanders)",
+    "name": "Blanchard's Cricket Frog (Northern Cricket Frog)",
+    "status": "Extirpated"
+  },
+  {
+    "category": "Amphibians (frogs, toads and salamanders)",
+    "name": "Eastern Tiger Salamander",
+    "status": "Extirpated"
+  },
+  {
+    "category": "Amphibians (frogs, toads and salamanders)",
+    "name": "Fowler's Toad",
+    "status": "Endangered",
+    "summary": "Fowler's Toad is a medium-sized toad found along the sandy shorelines of Lake Erie. Its survival is threatened by the loss of shoreline habitat, predation, and sensitivity to agricultural pesticides.",
+    "coordinates": [-82.4, 42.6]
+  },
+  {
+    "category": "Amphibians (frogs, toads and salamanders)",
+    "name": "Jefferson Salamander",
+    "status": "Endangered",
+    "summary": "The Jefferson Salamander is a large, dark salamander found in deciduous forests. In Ontario, it is found in the southern regions. It is endangered due to habitat loss and road mortality during migration.",
+    "coordinates": [-79.9, 43.9]
+  },
+  {
+    "category": "Amphibians (frogs, toads and salamanders)",
+    "name": "Northern Dusky Salamander",
+    "status": "Endangered",
+    "summary": "The Northern Dusky Salamander is a small salamander found in forested streams. In Ontario, it is found in the Niagara region. It is endangered due to habitat loss and water pollution.",
+    "coordinates": [-79.2, 43.1]
+  },
+  {
+    "category": "Amphibians (frogs, toads and salamanders)",
+    "name": "Small-mouthed Salamander",
+    "status": "Endangered",
+    "summary": "The Small-mouthed Salamander is a medium-sized salamander found in woodlands. In Ontario, it is found in the southwestern region. It is endangered due to habitat fragmentation and road mortality.",
+    "coordinates": [-81.3, 42.9]
+  },
+  {
+    "category": "Amphibians (frogs, toads and salamanders)",
+    "name": "Unisexual Ambystoma (Jefferson Salamander dependent population)",
+    "displayName": "Unisexual Ambystoma",
+    "status": "Endangered",
+    "summary": "This is a fascinating all-female lineage of salamanders that reproduces by 'stealing' sperm from other mole salamander species, like the Jefferson Salamander. They are crucial for their ecosystems but are threatened by habitat loss and degradation of their woodland and wetland homes.",
+    "story": "Imagine a lineage of survivors, a group of all-female salamanders who have thrived for millennia by borrowing from their neighbors. These are the Unisexual Ambystoma. They sneak into the breeding ponds of other salamanders, like the Jefferson Salamander, and use their sperm to trigger egg development without actual fertilization. It's a clever strategy, but it makes them dependent on healthy populations of their host species. As forests are cleared and ponds are polluted, their future becomes more uncertain. Protecting their habitats means protecting a unique evolutionary story.",
+    "coordinates": [-79.5, 43.5],
+    "modelPath": "/models/unisexual-ambystoma.glb",
+    "image": "/images/unisexual-ambystoma.jpg",
+    "sound": "/audio/unisexual-ambystoma.mp3"
+  },
+  {
+    "category": "Amphibians (frogs, toads and salamanders)",
+    "name": "Unisexual Ambystoma (Small-mouthed Salamander dependent population)",
+    "status": "Endangered",
+    "summary": "This unisexual salamander population depends on Small-mouthed Salamanders for reproduction. In Ontario, it is found in the southwestern region. It is endangered due to the decline of its host species.",
+    "coordinates": [-81.4, 42.8]
+  },
+  {
+    "category": "Birds",
+    "name": "Acadian Flycatcher",
+    "status": "Endangered",
+    "summary": "The Acadian Flycatcher is a small songbird found in mature deciduous forests. In Ontario, it is found in the Carolinian forest region. It is endangered due to habitat loss and forest fragmentation.",
+    "coordinates": [-82.3, 42.6]
+  },
+  {
+    "category": "Birds",
+    "name": "American White Pelican",
+    "status": "Threatened",
+    "summary": "The American White Pelican is a large waterbird found on lakes and wetlands. In Ontario, it is found in the northwestern regions. It is threatened by habitat loss and human disturbance.",
+    "coordinates": [-89.2, 48.8]
+  },
+  {
+    "category": "Birds",
+    "name": "Bank Swallow",
+    "status": "Threatened",
+    "summary": "The Bank Swallow is a small bird that nests in vertical banks and cliffs. In Ontario, it is found throughout the province. It is threatened by habitat loss and pesticide use.",
+    "coordinates": [-79.6, 44.5]
+  },
+  {
+    "category": "Birds",
+    "name": "Barn Owl",
+    "status": "Endangered",
+    "summary": "The Barn Owl is a distinctive owl with a heart-shaped face. In Ontario, it is found in the southern regions. It is endangered due to habitat loss and vehicle collisions.",
+    "coordinates": [-80.9, 43.3]
+  },
+  {
+    "category": "Birds",
+    "name": "Barn Swallow",
+    "status": "Special Concern"
+  },
+  {
+    "category": "Birds",
+    "name": "Black Tern",
+    "status": "Special concern",
+    "summary": "The Black Tern is a small tern found in marshes and wetlands. In Ontario, it is found in the central and northern regions. It is of special concern due to habitat loss.",
+    "coordinates": [-84.0, 46.0]
+  },
+  {
+    "category": "Birds",
+    "name": "Bobolink",
+    "status": "Threatened",
+    "summary": "The Bobolink is a grassland bird with distinctive black and white plumage. In Ontario, it is found in agricultural areas. It is threatened by early hay cutting and habitat loss.",
+    "coordinates": [-79.7, 44.1]
+  },
+  {
+    "category": "Birds",
+    "name": "Canada Warbler",
+    "status": "Special concern",
+    "summary": "The Canada Warbler is a small songbird found in boreal forests. In Ontario, it is found in the northern regions. It is of special concern due to habitat loss in wintering grounds.",
+    "coordinates": [-86.5, 49.0]
+  },
+  {
+    "category": "Birds",
+    "name": "Cerulean Warbler",
+    "status": "Threatened",
+    "summary": "The Cerulean Warbler is a small, blue songbird found in mature forests. In Ontario, it is found in the southern regions. It is threatened by habitat loss and forest fragmentation.",
+    "coordinates": [-80.4, 43.7]
+  },
+  {
+    "category": "Birds",
+    "name": "Chimney Swift",
+    "status": "Threatened",
+    "summary": "The Chimney Swift is a small bird that nests in chimneys and other vertical structures. In Ontario, it is found in urban and rural areas. It is threatened by the loss of nesting sites.",
+    "coordinates": [-79.3, 43.6]
+  },
+  {
+    "category": "Birds",
+    "name": "Common Nighthawk",
+    "status": "Special concern",
+    "summary": "The Common Nighthawk is a nocturnal bird found in open areas. In Ontario, it is found throughout the province. It is of special concern due to habitat loss and insect decline.",
+    "coordinates": [-77.5, 44.5]
+  },
+  {
+    "category": "Birds",
+    "name": "Eastern Meadowlark",
+    "status": "Threatened",
+    "summary": "The Eastern Meadowlark is a grassland bird with a distinctive yellow breast. In Ontario, it is found in agricultural areas. It is threatened by habitat loss and early hay cutting.",
+    "coordinates": [-79.8, 44.3]
+  },
+  {
+    "category": "Birds",
+    "name": "Eastern Whip-poor-will",
+    "status": "Threatened",
+    "summary": "The Eastern Whip-poor-will is a nocturnal bird found in open woodlands. In Ontario, it is found in the southern regions. It is threatened by habitat loss and insect decline.",
+    "coordinates": [-80.2, 44.0]
+  },
+  {
+    "category": "Birds",
+    "name": "Eastern Wood-Pewee",
+    "status": "Special concern",
+    "summary": "The Eastern Wood-Pewee is a small flycatcher found in deciduous forests. In Ontario, it is found in the southern and central regions. It is of special concern due to habitat loss.",
+    "coordinates": [-78.5, 45.0]
+  },
+  {
+    "category": "Birds",
+    "name": "Eskimo Curlew",
+    "status": "Extirpated",
+    "summary": "The Eskimo Curlew was a medium-sized shorebird that once migrated through Ontario. It is now considered extirpated from the province due to overhunting and habitat loss.",
+    "coordinates": [-90.0, 53.0]
+  },
+  {
+    "category": "Birds",
+    "name": "Evening Grosbeak",
+    "status": "Special concern",
+    "summary": "The Evening Grosbeak is a large finch found in boreal forests. In Ontario, it is found in the northern regions. It is of special concern due to habitat loss and climate change.",
+    "coordinates": [-87.0, 50.5]
+  },
+  {
+    "category": "Birds",
+    "name": "Golden Eagle",
+    "status": "Endangered",
+    "summary": "The Golden Eagle is one of North America's largest birds of prey. In Ontario, it is found in the far north, primarily in the Hudson Bay Lowlands. It is endangered due to habitat loss and sensitivity to human disturbance at its nesting sites.",
+    "coordinates": [-83.5, 54.0]
+  },
+  {
+    "category": "Birds",
+    "name": "Golden-winged Warbler",
+    "status": "Special concern",
+    "summary": "The Golden-winged Warbler is a small songbird found in shrubby habitats. In Ontario, it is found in the central regions. It is of special concern due to habitat loss and hybridization.",
+    "coordinates": [-83.5, 47.0]
+  },
+  {
+    "category": "Birds",
+    "name": "Grasshopper Sparrow",
+    "status": "Special concern",
+    "summary": "The Grasshopper Sparrow is a small sparrow found in grasslands. In Ontario, it is found in the southern and central regions. It is of special concern due to habitat loss.",
+    "coordinates": [-79.5, 44.8]
+  },
+  {
+    "category": "Birds",
+    "name": "Greater Prairie-Chicken",
+    "status": "Extirpated",
+    "summary": "The Greater Prairie-Chicken was a grassland bird that once inhabited Ontario's prairies. It is now considered extirpated from the province due to habitat loss and hunting.",
+    "coordinates": [-91.0, 52.5]
+  },
+  {
+    "category": "Birds",
+    "name": "Henslow's Sparrow",
+    "status": "Endangered",
+    "summary": "Henslow's Sparrow is a small grassland bird with a distinctive song. In Ontario, it is found in tallgrass prairies. It is endangered due to habitat loss and fragmentation.",
+    "coordinates": [-81.7, 42.5]
+  },
+  {
+    "category": "Birds",
+    "name": "Horned Grebe",
+    "status": "Special concern",
+    "summary": "The Horned Grebe is a diving bird found on lakes and ponds. In Ontario, it is found in the northern regions. It is of special concern due to habitat loss and pollution.",
+    "coordinates": [-88.5, 51.0]
+  },
+  {
+    "category": "Birds",
+    "name": "Hudsonian Godwit",
+    "status": "Threatened",
+    "summary": "The Hudsonian Godwit is a large shorebird that migrates through Ontario. It is found in wetlands during migration. It is threatened by habitat loss and hunting pressure.",
+    "coordinates": [-82.0, 42.8]
+  },
+  {
+    "category": "Birds",
+    "name": "King Rail",
+    "status": "Endangered",
+    "summary": "The King Rail is a large, secretive marsh bird. In Ontario, it is found in coastal marshes. It is endangered due to habitat loss and water level changes.",
+    "coordinates": [-82.6, 42.2]
+  },
+  {
+    "category": "Birds",
+    "name": "Kirtland's Warbler",
+    "status": "Endangered",
+    "summary": "Kirtland's Warbler is a rare songbird that breeds in young jack pine forests. In Ontario, it is found in the northern regions. It is endangered due to habitat loss and cowbird parasitism.",
+    "coordinates": [-84.2, 46.5]
+  },
+  {
+    "category": "Birds",
+    "name": "Least Bittern",
+    "status": "Threatened",
+    "summary": "The Least Bittern is a small heron found in dense marshes. In Ontario, it is found in the southern regions. It is threatened by habitat loss and water level changes.",
+    "coordinates": [-81.9, 42.7]
+  },
+  {
+    "category": "Birds",
+    "name": "Lesser Yellowlegs",
+    "status": "Threatened",
+    "summary": "The Lesser Yellowlegs is a medium-sized shorebird found in wetlands. In Ontario, it is found during migration. It is threatened by habitat loss and hunting pressure.",
+    "coordinates": [-82.4, 42.4]
+  },
+  {
+    "category": "Birds",
+    "name": "Loggerhead Shrike",
+    "status": "Endangered",
+    "summary": "The Loggerhead Shrike is a predatory songbird that impales its prey on thorns. In Ontario, it is found in open grasslands. It is endangered due to habitat loss and pesticide use.",
+    "coordinates": [-80.6, 43.5]
+  },
+  {
+    "category": "Birds",
+    "name": "Louisiana Waterthrush",
+    "status": "Threatened",
+    "summary": "The Louisiana Waterthrush is a warbler found along forested streams. In Ontario, it is found in the southern regions. It is threatened by habitat loss and water pollution.",
+    "coordinates": [-81.1, 43.0]
+  },
+  {
+    "category": "Birds",
+    "name": "Northern Bobwhite",
+    "status": "Endangered",
+    "summary": "The Northern Bobwhite is a ground-dwelling quail found in grasslands and agricultural areas. In Ontario, it is found in the southwestern region. It is endangered due to habitat loss and agricultural practices.",
+    "coordinates": [-81.6, 42.6]
+  },
+  {
+    "category": "Birds",
+    "name": "Olive-sided Flycatcher",
+    "status": "Special concern",
+    "summary": "The Olive-sided Flycatcher is a medium-sized flycatcher found in boreal forests. In Ontario, it is found in the northern regions. It is of special concern due to habitat loss and climate change.",
+    "coordinates": [-85.5, 48.5]
+  },
+  {
+    "category": "Birds",
+    "name": "Peregrine Falcon",
+    "status": "Special concern",
+    "summary": "The Peregrine Falcon is a fast-flying raptor found in urban and rural areas. In Ontario, it is found throughout the province. It is of special concern due to historical pesticide use.",
+    "coordinates": [-76.5, 45.5]
+  },
+  {
+    "category": "Birds",
+    "name": "Piping Plover",
+    "status": "Endangered",
+    "summary": "The Piping Plover is a small, pale shorebird that nests on sandy beaches. In Ontario, it is found on the shores of the Great Lakes. Its population is critically low due to habitat loss and intense predation pressure.",
+    "coordinates": [-81.5, 44.5]
+  },
+  {
+    "category": "Birds",
+    "name": "Prothonotary Warbler",
+    "status": "Endangered",
+    "summary": "The Prothonotary Warbler is a bright yellow songbird that nests in tree cavities near water. In Ontario, it is found in the Carolinian forest region along Lake Erie. It is endangered due to habitat loss and competition for nesting sites.",
+    "coordinates": [-82.8, 42.8]
+  },
+  {
+    "category": "Birds",
+    "name": "Red-headed Woodpecker",
+    "status": "Endangered",
+    "summary": "The Red-headed Woodpecker is a striking bird with a completely red head and black and white body. In Ontario, it is found in open woodlands and savannas. It is endangered due to habitat loss and competition with other cavity-nesting species.",
+    "coordinates": [-80.5, 43.2]
+  },
+  {
+    "category": "Birds",
+    "name": "Red-necked Phalarope",
+    "status": "Special concern",
+    "summary": "The Red-necked Phalarope is a small shorebird found in wetlands. In Ontario, it is found in the northern regions. It is of special concern due to habitat loss.",
+    "coordinates": [-89.0, 52.5]
+  },
+  {
+    "category": "Birds",
+    "name": "Red Knot rufa subspecies (Northeastern South America wintering population)",
+    "status": "Endangered",
+    "summary": "The Red Knot is a medium-sized shorebird that migrates through Ontario. This subspecies winters in northeastern South America. It is endangered due to habitat loss and hunting pressure.",
+    "coordinates": [-82.2, 42.3]
+  },
+  {
+    "category": "Birds",
+    "name": "Red Knot rufa subspecies (Southeastern USA / Gulf of Mexico / Caribbean wintering population)",
+    "status": "Endangered",
+    "summary": "The Red Knot is a shorebird that migrates through Ontario. This subspecies winters in the southeastern USA and Caribbean. It is endangered due to habitat loss and hunting pressure.",
+    "coordinates": [-81.8, 42.5]
+  },
+  {
+    "category": "Birds",
+    "name": "Red Knot rufa subspecies (Tierra del Fuego / Patagonia wintering population)",
+    "status": "Endangered",
+    "summary": "The Red Knot is a shorebird that migrates through Ontario. This subspecies winters in South America. It is endangered due to habitat loss and hunting pressure.",
+    "coordinates": [-82.5, 42.1]
+  },
+  {
+    "category": "Birds",
+    "name": "Rusty Blackbird",
+    "status": "Special concern",
+    "summary": "The Rusty Blackbird is a medium-sized blackbird found in wetlands. In Ontario, it is found in the northern regions. It is of special concern due to habitat loss.",
+    "coordinates": [-87.5, 49.5]
+  },
+  {
+    "category": "Birds",
+    "name": "Short-eared Owl",
+    "status": "Threatened",
+    "summary": "The Short-eared Owl is a medium-sized owl that hunts over open grasslands and marshes. In Ontario, it is found in the southern regions during winter. It is threatened by habitat loss and changes in agricultural practices.",
+    "coordinates": [-79.2, 44.8]
+  },
+  {
+    "category": "Birds",
+    "name": "Wood Thrush",
+    "status": "Special concern",
+    "summary": "The Wood Thrush is a medium-sized songbird found in deciduous forests. In Ontario, it is found in the southern and central regions. It is of special concern due to habitat loss.",
+    "coordinates": [-80.0, 44.2]
+  },
+  {
+    "category": "Birds",
+    "name": "Yellow Rail",
+    "status": "Special concern",
+    "summary": "The Yellow Rail is a small, secretive rail found in marshes. In Ontario, it is found in the northern regions. It is of special concern due to habitat loss.",
+    "coordinates": [-88.0, 50.0]
+  },
+  {
+    "category": "Birds",
+    "name": "Yellow-breasted Chat",
+    "status": "Endangered",
+    "summary": "The Yellow-breasted Chat is a large, colorful songbird that prefers dense shrubby habitats. In Ontario, it is found in the Carolinian forest region. It is endangered due to habitat fragmentation and loss of early successional forests.",
+    "coordinates": [-82.1, 42.9]
+  },
+  {
+    "category": "Fishes",
+    "name": "American Eel",
+    "status": "Endangered",
+    "summary": "The American Eel is a catadromous fish that spawns in the ocean but lives most of its life in freshwater. In Ontario, it is found in the Great Lakes and connecting waterways. It is endangered due to barriers to migration and overfishing.",
+    "coordinates": [-79.4, 43.6],
+    "modelPath": "/models/american-eel.glb"
+  },
+  {
+    "category": "Fishes",
+    "name": "Black Redhorse",
+    "status": "Threatened",
+    "summary": "The Black Redhorse is a medium-sized sucker fish found in clear, fast-flowing streams. In Ontario, it is found in the Grand River watershed. It is threatened by water pollution and habitat degradation.",
+    "coordinates": [-80.3, 43.4]
+  },
+  {
+    "category": "Fishes",
+    "name": "Blackstripe Topminnow",
+    "status": "Special concern",
+    "summary": "The Blackstripe Topminnow is a small fish found in clear streams. In Ontario, it is found in the Lake Erie watershed. It is of special concern due to habitat loss.",
+    "coordinates": [-82.5, 42.0]
+  },
+  {
+    "category": "Fishes",
+    "name": "Bridle Shiner",
+    "status": "Special concern",
+    "summary": "The Bridle Shiner is a small fish found in clear, vegetated waters. In Ontario, it is found in the Lake Erie watershed. It is of special concern due to habitat loss.",
+    "coordinates": [-82.3, 42.2]
+  },
+  {
+    "category": "Fishes",
+    "name": "Channel Darter",
+    "status": "Threatened",
+    "summary": "The Channel Darter is a small fish that prefers clean, gravel-bottomed streams. In Ontario, it is found in the Lake Erie and Lake Ontario watersheds. It is threatened by water pollution and habitat destruction.",
+    "coordinates": [-81.2, 42.7]
+  },
+  {
+    "category": "Fishes",
+    "name": "Cutlip Minnow",
+    "status": "Special concern",
+    "summary": "The Cutlip Minnow is a small fish found in clear streams. In Ontario, it is found in the Lake Erie watershed. It is of special concern due to habitat loss.",
+    "coordinates": [-82.1, 42.4]
+  },
+  {
+    "category": "Fishes",
+    "name": "Eastern Sand Darter",
+    "status": "Threatened",
+    "summary": "The Eastern Sand Darter is a small fish that buries itself in sandy stream bottoms. In Ontario, it is found in the Lake Erie watershed. It is threatened by sedimentation and habitat loss.",
+    "coordinates": [-82.5, 42.3]
+  },
+  {
+    "category": "Fishes",
+    "name": "Gravel Chub",
+    "status": "Extirpated",
+    "summary": "The Gravel Chub was a small fish found in clear streams. It is now considered extirpated from Ontario due to habitat loss and water pollution.",
+    "coordinates": [-92.0, 51.0]
+  },
+  {
+    "category": "Fishes",
+    "name": "Great Lakes-Upper St. Lawrence populations of Lake Sturgeon",
+    "status": "Threatened",
+    "summary": "The Lake Sturgeon is a large, ancient fish found in the Great Lakes. In Ontario, it is found in Lake Ontario and the St. Lawrence River. It is threatened by overfishing and habitat degradation.",
+    "coordinates": [-78.8, 44.2]
+  },
+  {
+    "category": "Fishes",
+    "name": "Greenside Darter",
+    "status": "Special concern",
+    "summary": "The Greenside Darter is a small fish found in clear, fast-flowing streams. In Ontario, it is found in the Lake Erie watershed. It is of special concern due to habitat loss.",
+    "coordinates": [-81.9, 42.6]
+  },
+  {
+    "category": "Fishes",
+    "name": "Lake Chubsucker",
+    "status": "Threatened",
+    "summary": "The Lake Chubsucker is a medium-sized fish found in lakes and slow-moving rivers. In Ontario, it is found in the Lake Erie watershed. It is threatened by water pollution and habitat loss.",
+    "coordinates": [-82.7, 42.0]
+  },
+  {
+    "category": "Fishes",
+    "name": "Laurentian-Acadian population of American Eel",
+    "status": "Threatened",
+    "summary": "The American Eel is a catadromous fish that spawns in the ocean but lives in freshwater. This population is found in the Laurentian-Acadian region. It is threatened by barriers to migration.",
+    "coordinates": [-79.0, 43.4]
+  },
+  {
+    "category": "Fishes",
+    "name": "Northern Brook Lamprey",
+    "status": "Special concern",
+    "summary": "The Northern Brook Lamprey is a small, non-parasitic lamprey found in clear streams. In Ontario, it is found in the northern regions. It is of special concern due to habitat loss.",
+    "coordinates": [-85.0, 47.5]
+  },
+  {
+    "category": "Fishes",
+    "name": "Northern Madtom",
+    "status": "Endangered",
+    "summary": "The Northern Madtom is a small catfish with venomous spines. In Ontario, it is found in the Lake Erie watershed. It is endangered due to water pollution and habitat destruction.",
+    "coordinates": [-82.9, 42.1]
+  },
+  {
+    "category": "Fishes",
+    "name": "Paddlefish",
+    "status": "Extirpated",
+    "summary": "The Paddlefish was a large, ancient fish found in large rivers. It is now considered extirpated from Ontario due to overfishing and habitat destruction.",
+    "coordinates": [-91.5, 51.5]
+  },
+  {
+    "category": "Fishes",
+    "name": "Pugnose Minnow",
+    "status": "Threatened",
+    "summary": "The Pugnose Minnow is a small fish found in clear, vegetated waters. In Ontario, it is found in the Lake Erie watershed. It is threatened by water pollution and habitat destruction.",
+    "coordinates": [-82.8, 42.2]
+  },
+  {
+    "category": "Fishes",
+    "name": "Pugnose Shiner",
+    "status": "Threatened",
+    "summary": "The Pugnose Shiner is a small fish found in clear, vegetated waters. In Ontario, it is found in the Lake Erie watershed. It is threatened by water pollution and habitat destruction.",
+    "coordinates": [-82.9, 42.1]
+  },
+  {
+    "category": "Fishes",
+    "name": "Redside Dace",
+    "status": "Endangered",
+    "summary": "The Redside Dace is a small, colorful minnow found in clear, cool streams. In Ontario, it is found in the Credit River watershed. It is endangered due to urbanization and habitat loss.",
+    "coordinates": [-79.8, 43.7]
+  },
+  {
+    "category": "Fishes",
+    "name": "River Darter",
+    "status": "Special concern",
+    "summary": "The River Darter is a small fish found in clear, fast-flowing streams. In Ontario, it is found in the Lake Erie watershed. It is of special concern due to habitat loss.",
+    "coordinates": [-81.7, 42.8]
+  },
+  {
+    "category": "Fishes",
+    "name": "Round Hickorynut",
+    "status": "Endangered",
+    "summary": "The Round Hickorynut is a freshwater mussel found in large rivers and lakes. In Ontario, it is found in the Great Lakes and connecting waterways. It is endangered due to water pollution and habitat destruction.",
+    "coordinates": [-81.8, 42.9]
+  },
+  {
+    "category": "Fishes",
+    "name": "Round Pigtoe",
+    "status": "Endangered",
+    "summary": "The Round Pigtoe is a freshwater mussel found in large rivers and lakes. In Ontario, it is found in the Great Lakes and connecting waterways. It is endangered due to water pollution and habitat destruction.",
+    "coordinates": [-81.7, 42.8]
+  },
+  {
+    "category": "Fishes",
+    "name": "Salamander Mussel",
+    "status": "Endangered",
+    "summary": "The Salamander Mussel is a freshwater mussel found in large rivers. In Ontario, it is found in the Great Lakes watershed. It is endangered due to water pollution and habitat destruction.",
+    "coordinates": [-81.5, 42.9]
+  },
+  {
+    "category": "Fishes",
+    "name": "Sauger",
+    "status": "Threatened",
+    "summary": "The Sauger is a medium-sized fish found in large rivers and lakes. In Ontario, it is found in the Great Lakes and connecting waterways. It is threatened by water pollution and habitat degradation.",
+    "coordinates": [-79.1, 43.3]
+  },
+  {
+    "category": "Fishes",
+    "name": "Silver Chub",
+    "status": "Endangered",
+    "summary": "The Silver Chub is a medium-sized fish found in large lakes and rivers. In Ontario, it is found in Lake Erie and Lake Ontario. It is endangered due to water pollution and habitat degradation.",
+    "coordinates": [-79.1, 43.2]
+  },
+  {
+    "category": "Fishes",
+    "name": "Silver Shiner",
+    "status": "Threatened",
+    "summary": "The Silver Shiner is a small fish found in clear, fast-flowing streams. In Ontario, it is found in the Lake Erie watershed. It is threatened by water pollution and habitat destruction.",
+    "coordinates": [-81.4, 42.6]
+  },
+  {
+    "category": "Fishes",
+    "name": "Spotted Gar",
+    "status": "Endangered"
+  },
+  {
+    "category": "Fishes",
+    "name": "Spotted Sucker",
+    "status": "Threatened"
+  },
+  {
+    "category": "Fishes",
+    "name": "Upper St. Lawrence population of Channel Darter",
+    "status": "Threatened"
+  },
+  {
+    "category": "Fishes",
+    "name": "Warmouth",
+    "status": "Threatened"
+  },
+  {
+    "category": "Fishes",
+    "name": "White-eye",
+    "status": "Extirpated"
+  },
+  {
+    "category": "Fishes",
+    "name": "Grass-pickerel",
+    "status": "Special concern"
+  },
+  {
+    "category": "Insects",
+    "name": "American Bumble Bee",
+    "status": "Special concern"
+  },
+  {
+    "category": "Insects",
+    "name": "Black-legged Tick",
+    "status": "Not at risk"
+  },
+  {
+    "category": "Insects",
+    "name": "Bogbean Buckmoth",
+    "status": "Endangered"
+  },
+  {
+    "category": "Insects",
+    "name": "Common Hoptree Borer",
+    "status": "Special concern"
+  },
+  {
+    "category": "Insects",
+    "name": "Frosted Elfin",
+    "status": "Endangered"
+  },
+  {
+    "category": "Insects",
+    "name": "Gypsy Cuckoo Bumble Bee",
+    "status": "Endangered"
+  },
+  {
+    "category": "Insects",
+    "name": "Karner Blue",
+    "status": "Extirpated"
+  },
+  {
+    "category": "Insects",
+    "name": "Laura's Clubtail",
+    "status": "Endangered"
+  },
+  {
+    "category": "Insects",
+    "name": "Monarch",
+    "status": "Endangered"
+  },
+  {
+    "category": "Insects",
+    "name": "Mottled Duskywing",
+    "status": "Endangered",
+    "summary": "The Mottled Duskywing is a butterfly found in oak savannas and woodlands. In Ontario, it is found in the southern regions. It is endangered due to habitat loss and fire suppression.",
+    "coordinates": [-80.3, 43.8]
+  },
+  {
+    "category": "Insects",
+    "name": "Nine-spotted Lady Beetle",
+    "status": "Extirpated",
+    "summary": "The Nine-spotted Lady Beetle was a beneficial insect found in agricultural areas. It is now considered extirpated from Ontario due to habitat loss and pesticide use.",
+    "coordinates": [-93.0, 50.0]
+  },
+  {
+    "category": "Insects",
+    "name": "Northern Barrens Tiger Beetle",
+    "status": "Endangered",
+    "summary": "The Northern Barrens Tiger Beetle is a predatory beetle found in sandy areas. In Ontario, it is found in the southern regions. It is endangered due to habitat loss and development.",
+    "coordinates": [-81.0, 43.2],
+    "modelPath": "/models/northern-barrens-tiger-beetle.glb"
+  },
+  {
+    "category": "Insects",
+    "name": "Rapids Clubtail",
+    "status": "Endangered",
+    "summary": "The Rapids Clubtail is a dragonfly found in fast-flowing streams. In Ontario, it is found in the southern regions. It is endangered due to water pollution and habitat destruction.",
+    "coordinates": [-80.7, 43.5]
+  },
+  {
+    "category": "Insects",
+    "name": "Rusty-patched Bumble Bee",
+    "status": "Endangered",
+    "summary": "The Rusty-patched Bumble Bee is a native pollinator with distinctive rusty patches on its abdomen. In Ontario, it is found in the southern regions. It is endangered due to habitat loss and pesticide use.",
+    "coordinates": [-80.1, 43.5]
+  },
+  {
+    "category": "Insects",
+    "name": "Striped Whitelip",
+    "status": "Endangered",
+    "summary": "The Striped Whitelip is a snail found in forested areas. In Ontario, it is found in the southern regions. It is endangered due to habitat loss and acid rain.",
+    "coordinates": [-79.4, 44.1]
+  },
+  {
+    "category": "Insects",
+    "name": "Suckley's Cuckoo Bumble Bee",
+    "status": "Threatened",
+    "summary": "Suckley's Cuckoo Bumble Bee is a parasitic bumble bee that relies on other bumble bee species. In Ontario, it is found in the southern regions. It is threatened by the decline of its host species.",
+    "coordinates": [-80.5, 43.6]
+  },
+  {
+    "category": "Insects",
+    "name": "West Virginia White",
+    "status": "Endangered",
+    "summary": "The West Virginia White is a butterfly found in rich woodlands. In Ontario, it is found in the southern regions. It is endangered due to habitat loss and invasive garlic mustard.",
+    "coordinates": [-80.8, 43.4]
+  },
+  {
+    "category": "Insects",
+    "name": "Western Bumble Bee",
+    "status": "Threatened",
+    "summary": "The Western Bumble Bee is a large, fuzzy pollinator found in open areas. In Ontario, it is found in the northwestern regions. It is threatened by habitat loss and disease.",
+    "coordinates": [-89.5, 48.5]
+  },
+  {
+    "category": "Insects",
+    "name": "White-mouthed Shell",
+    "status": "Endangered",
+    "summary": "The White-mouthed Shell is a snail found in forested areas. In Ontario, it is found in the southern regions. It is endangered due to habitat loss and acid rain.",
+    "coordinates": [-79.6, 44.0]
+  },
+  {
+    "category": "Insects",
+    "name": "Yellow-banded Bumble Bee",
+    "status": "Special concern",
+    "summary": "The Yellow-banded Bumble Bee is a native pollinator found in various habitats. In Ontario, it is found throughout the province. It is of special concern due to habitat loss and pesticide use.",
+    "coordinates": [-81.5, 43.0]
+  },
+  {
+    "category": "Lichens",
+    "name": "Flooded Jellyskin",
+    "status": "Threatened",
+    "summary": "The Flooded Jellyskin is a lichen found in wetlands and floodplains. In Ontario, it is found in the southern regions. It is threatened by habitat loss and water level changes.",
+    "coordinates": [-81.9, 42.6]
+  },
+  {
+    "category": "Lichens",
+    "name": "Pale-bellied Frost Lichen",
+    "status": "Endangered",
+    "summary": "The Pale-bellied Frost Lichen is a lichen found in old-growth forests. In Ontario, it is found in the southern regions. It is endangered due to habitat loss and air pollution.",
+    "coordinates": [-80.0, 43.9]
+  },
+  {
+    "category": "Lichens",
+    "name": "Seaside Centipede Lichen",
+    "status": "Endangered",
+    "summary": "The Seaside Centipede Lichen is a lichen found in coastal areas. In Ontario, it is found along the Great Lakes. It is endangered due to habitat loss and air pollution.",
+    "coordinates": [-82.4, 42.2]
+  },
+  {
+    "category": "Mammals",
+    "name": "Algonquin Wolf",
+    "status": "Threatened",
+    "summary": "The Algonquin Wolf, also known as the Eastern Wolf, is a distinct species of wolf found in the Great Lakes region. Its core population resides in Algonquin Provincial Park. It is threatened by hybridization with coyotes and habitat fragmentation.",
+    "coordinates": [-78.5, 45.5]
+  },
+  {
+    "category": "Mammals",
+    "name": "American Badger",
+    "status": "Endangered",
+    "summary": "The American Badger is a powerful digging mammal found in grasslands and open areas. In Ontario, it is found in the southwestern region. It is endangered due to habitat loss and road mortality.",
+    "coordinates": [-81.5, 42.8]
+  },
+  {
+    "category": "Mammals",
+    "name": "Beluga",
+    "status": "Threatened",
+    "summary": "The Beluga is a white whale found in Arctic waters. In Ontario, it is found in Hudson Bay and James Bay. It is threatened by climate change and industrial development.",
+    "coordinates": [-87.5, 55.5]
+  },
+  {
+    "category": "Mammals",
+    "name": "Caribou (Boreal population)",
+    "status": "Threatened",
+    "summary": "The Boreal Caribou is a large deer found in northern forests. In Ontario, it is found in the boreal forest region. It is threatened by habitat loss and climate change.",
+    "coordinates": [-86.0, 50.0]
+  },
+  {
+    "category": "Mammals",
+    "name": "Eastern Mole",
+    "status": "Special concern",
+    "summary": "The Eastern Mole is a small, burrowing mammal found in rich soils. In Ontario, it is found in the southern regions. It is of special concern due to habitat loss.",
+    "coordinates": [-80.5, 43.5]
+  },
+  {
+    "category": "Mammals",
+    "name": "Eastern Small-footed Myotis",
+    "status": "Endangered",
+    "summary": "The Eastern Small-footed Myotis is a small bat found in rocky areas and caves. In Ontario, it is found in the southern regions. It is endangered due to white-nose syndrome and habitat loss.",
+    "coordinates": [-79.5, 44.2]
+  },
+  {
+    "category": "Mammals",
+    "name": "Gray Fox",
+    "status": "Threatened",
+    "summary": "The Gray Fox is a medium-sized fox that can climb trees. In Ontario, it is found in the southern regions. It is threatened by habitat loss and competition with red foxes.",
+    "coordinates": [-80.8, 43.1]
+  },
+  {
+    "category": "Mammals",
+    "name": "Little Brown Myotis",
+    "status": "Endangered",
+    "summary": "The Little Brown Myotis is a common bat species that has been devastated by white-nose syndrome. In Ontario, it is found throughout the province. It is endangered due to the fungal disease.",
+    "coordinates": [-78.2, 45.8]
+  },
+  {
+    "category": "Mammals",
+    "name": "Northern Myotis",
+    "status": "Endangered"
+  },
+  {
+    "category": "Mammals",
+    "name": "Polar Bear",
+    "status": "Threatened",
+    "summary": "The Polar Bear is the largest land carnivore, found in the Arctic regions of Ontario. It is threatened by climate change and the loss of sea ice habitat.",
+    "coordinates": [-85.0, 55.0]
+  },
+  {
+    "category": "Mammals",
+    "name": "Tri-colored Bat",
+    "status": "Endangered",
+    "summary": "The Tri-colored Bat is a small bat found in forests and wetlands. In Ontario, it is found throughout the province. It is endangered due to white-nose syndrome.",
+    "coordinates": [-78.5, 45.2]
+  },
+  {
+    "category": "Mammals",
+    "name": "Wolverine",
+    "status": "Threatened",
+    "summary": "The Wolverine is a large, solitary carnivore found in northern forests. In Ontario, it is found in the northern regions. It is threatened by habitat loss and climate change.",
+    "coordinates": [-88.0, 52.0]
+  },
+  {
+    "category": "Mammals",
+    "name": "Woodland Vole",
+    "status": "Endangered",
+    "summary": "The Woodland Vole is a small rodent found in deciduous forests. In Ontario, it is found in the southern regions. It is endangered due to habitat loss and fragmentation.",
+    "coordinates": [-80.4, 43.7]
+  },
+  {
+    "category": "Molluscs",
+    "name": "Kidneyshell",
+    "status": "Endangered",
+    "summary": "The Kidneyshell is a freshwater mussel found in large rivers. In Ontario, it is found in the Great Lakes watershed. It is endangered due to water pollution and habitat destruction.",
+    "coordinates": [-81.3, 42.7]
+  },
+  {
+    "category": "Molluscs",
+    "name": "Lilliput",
+    "status": "Endangered",
+    "summary": "The Lilliput is a small freshwater mussel found in lakes and rivers. In Ontario, it is found in the Great Lakes watershed. It is endangered due to water pollution and habitat destruction.",
+    "coordinates": [-81.6, 42.4]
+  },
+  {
+    "category": "Molluscs",
+    "name": "Mapleleaf Mussel (Great Lakes-Upper St. Lawrence population)",
+    "status": "Threatened",
+    "summary": "The Mapleleaf Mussel is a freshwater mussel found in large rivers and lakes. This population is found in the Great Lakes and St. Lawrence River. It is threatened by water pollution and habitat destruction.",
+    "coordinates": [-78.9, 44.0]
+  },
+  {
+    "category": "Molluscs",
+    "name": "Northern Riffleshell",
+    "status": "Endangered",
+    "summary": "The Northern Riffleshell is a freshwater mussel found in fast-flowing streams. In Ontario, it is found in the Lake Erie watershed. It is endangered due to water pollution and habitat destruction.",
+    "coordinates": [-82.3, 42.3]
+  },
+  {
+    "category": "Molluscs",
+    "name": "Rayed Bean",
+    "status": "Endangered",
+    "summary": "The Rayed Bean is a small freshwater mussel found in streams and rivers. In Ontario, it is found in the Lake Erie watershed. It is endangered due to water pollution and habitat destruction.",
+    "coordinates": [-82.1, 42.5]
+  },
+  {
+    "category": "Molluscs",
+    "name": "Rainbow",
+    "status": "Endangered",
+    "summary": "The Rainbow is a freshwater mussel found in large rivers and lakes. In Ontario, it is found in the Great Lakes watershed. It is endangered due to water pollution and habitat destruction.",
+    "coordinates": [-81.8, 42.6]
+  },
+  {
+    "category": "Molluscs",
+    "name": "Snuffbox",
+    "status": "Endangered",
+    "summary": "The Snuffbox is a freshwater mussel found in large rivers and lakes. In Ontario, it is found in the Great Lakes watershed. It is endangered due to water pollution and habitat destruction.",
+    "coordinates": [-81.2, 42.8]
+  },
+  {
+    "category": "Molluscs",
+    "name": "Wavy-rayed Lampmussel",
+    "status": "Threatened",
+    "summary": "The Wavy-rayed Lampmussel is a freshwater mussel found in streams and rivers. In Ontario, it is found in the Lake Erie watershed. It is threatened by water pollution and habitat destruction.",
+    "coordinates": [-82.0, 42.4]
+  },
+  {
+    "category": "Mosses",
+    "name": "Spoon-leaved Moss",
+    "status": "Endangered",
+    "summary": "The Spoon-leaved Moss is a moss found in wetlands and bogs. In Ontario, it is found in the northern regions. It is endangered due to habitat loss and climate change.",
+    "coordinates": [-84.5, 47.0]
+  },
+  {
+    "category": "Plants",
+    "name": "American Chestnut",
+    "status": "Endangered",
+    "summary": "The American Chestnut was once a dominant tree in eastern forests. In Ontario, it is found in the southern regions. It is endangered due to chestnut blight disease.",
+    "coordinates": [-79.3, 43.8]
+  },
+  {
+    "category": "Plants",
+    "name": "American Columbo",
+    "status": "Threatened",
+    "summary": "The American Columbo is a tall, flowering plant found in rich woodlands. In Ontario, it is found in the southern regions. It is threatened by habitat loss and overharvesting.",
+    "coordinates": [-80.7, 43.9]
+  },
+  {
+    "category": "Plants",
+    "name": "American Ginseng",
+    "status": "Endangered",
+    "summary": "American Ginseng is a perennial plant with a forked root that grows in the rich, moist soil of deciduous forests. In Ontario, it is found primarily in southern and central regions. It is endangered due to overharvesting and habitat loss.",
+    "coordinates": [-79.8, 44.2]
+  },
+  {
+    "category": "Plants",
+    "name": "American Water-willow",
+    "status": "Threatened"
+  },
+  {
+    "category": "Plants",
+    "name": "Bent Spike-rush",
+    "status": "Endangered"
+  },
+  {
+    "category": "Plants",
+    "name": "Bird's-foot Violet",
+    "status": "Endangered"
+  },
+  {
+    "category": "Plants",
+    "name": "Blue Ash",
+    "status": "Threatened"
+  },
+  {
+    "category": "Plants",
+    "name": "Bluehearts",
+    "status": "Endangered"
+  },
+  {
+    "category": "Plants",
+    "name": "Butternut",
+    "status": "Endangered",
+    "summary": "The Butternut is a deciduous tree found in rich woodlands. In Ontario, it is found in the southern regions. It is endangered due to butternut canker disease.",
+    "coordinates": [-78.9, 44.1]
+  },
+  {
+    "category": "Plants",
+    "name": "Cherry Birch",
+    "status": "Endangered",
+    "summary": "The Cherry Birch is a deciduous tree found in rich woodlands. In Ontario, it is found in the southern regions. It is endangered due to habitat loss and disease.",
+    "coordinates": [-79.7, 43.1]
+  },
+  {
+    "category": "Plants",
+    "name": "Cucumber Tree",
+    "status": "Endangered",
+    "summary": "The Cucumber Tree is a deciduous tree found in rich woodlands. In Ontario, it is found in the southern regions. It is endangered due to habitat loss and disease.",
+    "coordinates": [-80.5, 42.8]
+  },
+  {
+    "category": "Plants",
+    "name": "Drooping Trillium",
+    "status": "Endangered",
+    "summary": "The Drooping Trillium is a perennial wildflower found in rich woodlands. In Ontario, it is found in the southern regions. It is endangered due to habitat loss and overharvesting.",
+    "coordinates": [-81.1, 42.9]
+  },
+  {
+    "category": "Plants",
+    "name": "Eastern Flowering Dogwood",
+    "status": "Endangered",
+    "summary": "The Eastern Flowering Dogwood is a small tree found in deciduous forests. In Ontario, it is found in the southern regions. It is endangered due to dogwood anthracnose disease.",
+    "coordinates": [-81.8, 42.6]
+  },
+  {
+    "category": "Plants",
+    "name": "Forked Three-awned Grass",
+    "status": "Endangered",
+    "summary": "The Forked Three-awned Grass is a grass found in dry, sandy areas. In Ontario, it is found in the southern regions. It is endangered due to habitat loss and development.",
+    "coordinates": [-82.5, 42.3]
+  },
+  {
+    "category": "Plants",
+    "name": "Gattinger's Agalinis",
+    "status": "Endangered",
+    "summary": "Gattinger's Agalinis is an annual wildflower found in open areas. In Ontario, it is found in the southern regions. It is endangered due to habitat loss and development.",
+    "coordinates": [-82.8, 42.1]
+  },
+  {
+    "category": "Plants",
+    "name": "Hairy Prairie-clover",
+    "status": "Endangered",
+    "summary": "The Hairy Prairie-clover is a perennial wildflower found in prairies. In Ontario, it is found in the southwestern region. It is endangered due to habitat loss and development.",
+    "coordinates": [-83.0, 42.4]
+  },
+  {
+    "category": "Plants",
+    "name": "Hoary Mountain-mint",
+    "status": "Endangered",
+    "summary": "The Hoary Mountain-mint is a perennial wildflower found in open woodlands. In Ontario, it is found in the southern regions. It is endangered due to habitat loss and development.",
+    "coordinates": [-79.4, 43.5]
+  },
+  {
+    "category": "Plants",
+    "name": "Kentucky Coffee-tree",
+    "status": "Threatened",
+    "summary": "The Kentucky Coffee-tree is a large deciduous tree found in rich woodlands. In Ontario, it is found in the southern regions. It is threatened by habitat loss and development.",
+    "coordinates": [-82.2, 42.7]
+  },
+  {
+    "category": "Plants",
+    "name": "Lakeside Daisy",
+    "status": "Threatened",
+    "summary": "The Lakeside Daisy is a perennial wildflower found in alvar habitats. In Ontario, it is found on the Bruce Peninsula. It is threatened by habitat loss and development.",
+    "coordinates": [-81.3, 45.1]
+  },
+  {
+    "category": "Plants",
+    "name": "Large Whorled Pogonia",
+    "status": "Endangered",
+    "summary": "The Large Whorled Pogonia is a perennial wildflower found in rich woodlands. In Ontario, it is found in the southern regions. It is endangered due to habitat loss and overharvesting.",
+    "coordinates": [-80.7, 43.0]
+  },
+  {
+    "category": "Plants",
+    "name": "Nodding Pogonia",
+    "status": "Endangered",
+    "summary": "The Nodding Pogonia is a perennial wildflower found in rich woodlands. In Ontario, it is found in the southern regions. It is endangered due to habitat loss and overharvesting.",
+    "coordinates": [-80.1, 43.3]
+  },
+  {
+    "category": "Plants",
+    "name": "Pink Milkwort",
+    "status": "Endangered",
+    "summary": "The Pink Milkwort is a perennial wildflower found in wetlands. In Ontario, it is found in the southern regions. It is endangered due to habitat loss and development.",
+    "coordinates": [-81.6, 42.9]
+  },
+  {
+    "category": "Plants",
+    "name": "Purple Twayblade",
+    "status": "Endangered",
+    "summary": "The Purple Twayblade is a perennial wildflower found in rich woodlands. In Ontario, it is found in the southern regions. It is endangered due to habitat loss and overharvesting.",
+    "coordinates": [-79.9, 43.2]
+  },
+  {
+    "category": "Plants",
+    "name": "Red Mulberry",
+    "status": "Endangered",
+    "summary": "The Red Mulberry is a deciduous tree found in rich woodlands. In Ontario, it is found in the southern regions. It is endangered due to habitat loss and hybridization with white mulberry.",
+    "coordinates": [-79.1, 43.0]
+  },
+  {
+    "category": "Plants",
+    "name": "Skinner's Agalinis",
+    "status": "Endangered",
+    "summary": "Skinner's Agalinis is an annual wildflower found in open areas. In Ontario, it is found in the southern regions. It is endangered due to habitat loss and development.",
+    "coordinates": [-82.0, 42.9]
+  },
+  {
+    "category": "Plants",
+    "name": "Small White Lady's-slipper",
+    "status": "Endangered",
+    "summary": "The Small White Lady's-slipper is a perennial wildflower found in wetlands. In Ontario, it is found in the southern regions. It is endangered due to habitat loss and overharvesting.",
+    "coordinates": [-80.4, 44.2]
+  },
+  {
+    "category": "Plants",
+    "name": "Spotted Wintergreen",
+    "status": "Endangered",
+    "summary": "The Spotted Wintergreen is a perennial wildflower found in rich woodlands. In Ontario, it is found in the southern regions. It is endangered due to habitat loss and overharvesting.",
+    "coordinates": [-79.7, 43.8]
+  },
+  {
+    "category": "Plants",
+    "name": "Tuberous Indian-plantain",
+    "status": "Endangered",
+    "summary": "The Tuberous Indian-plantain is a perennial wildflower found in rich woodlands. In Ontario, it is found in the southern regions. It is endangered due to habitat loss and development.",
+    "coordinates": [-81.4, 43.1]
+  },
+  {
+    "category": "Plants",
+    "name": "White Prairie Gentian",
+    "status": "Endangered",
+    "summary": "The White Prairie Gentian is a perennial wildflower found in prairies. In Ontario, it is found in the southwestern region. It is endangered due to habitat loss and development.",
+    "coordinates": [-82.9, 42.5]
+  },
+  {
+    "category": "Plants",
+    "name": "White Wood Aster",
+    "status": "Threatened",
+    "summary": "The White Wood Aster is a perennial wildflower found in rich woodlands. In Ontario, it is found in the southern regions. It is threatened by habitat loss and development.",
+    "coordinates": [-80.6, 43.6]
+  },
+  {
+    "category": "Reptiles (snakes, lizards and turtles)",
+    "name": "Wood Turtle",
+    "status": "Endangered"
+  },
+  {
+    "category": "Reptiles (snakes, lizards and turtles)",
+    "name": "Blanding's Turtle",
+    "status": "Threatened",
+    "summary": "Blanding's Turtle is a medium-sized turtle with a distinctive, bright yellow chin and throat. It is found in wetlands across southern and central Ontario. It is threatened by road mortality and habitat loss.",
+    "coordinates": [-80.2, 43.8]
+  }
+]

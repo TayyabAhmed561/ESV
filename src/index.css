@@ -1,3 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Apply Outfit font globally */
+body {
+  font-family: 'Outfit', sans-serif;
+}
+
+/* Custom animations */
+@keyframes fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slide-in-right {
+  from {
+    opacity: 0;
+    transform: translateX(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes slide-in-left {
+  from {
+    opacity: 0;
+    transform: translateX(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.animate-fade-in {
+  animation: fade-in 0.6s ease-out;
+}
+
+.animate-slide-in-right {
+  animation: slide-in-right 0.4s ease-out;
+}
+
+.animate-slide-in-left {
+  animation: slide-in-left 0.4s ease-out;
+}
+
+/* Mobile responsive styles for 3D viewer */
+@media (max-width: 1024px) {
+  .model-viewer-container {
+    min-height: 250px !important;
+    height: 300px !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .model-viewer-container {
+    min-height: 200px !important;
+    height: 250px !important;
+  }
+}
+
+@media (max-width: 640px) {
+  .model-viewer-container {
+    min-height: 180px !important;
+    height: 220px !important;
+  }
+}
+
+/* Custom styles to fix Mapbox GL controls with Tailwind CSS */
+.mapboxgl-ctrl-group {
+  @apply bg-white rounded-md shadow;
+}
+
+.mapboxgl-ctrl-group button {
+  @apply w-10 h-10 flex items-center justify-center bg-white;
+}
+
+.mapboxgl-ctrl-group button:hover {
+  @apply bg-gray-100;
+}
+
+.mapboxgl-ctrl-group button + button {
+  @apply border-t border-gray-200;
+}
+
+.mapboxgl-ctrl-compass-arrow {
+  @apply !w-4 !h-4; /* Use !important to override mapbox inline styles */
+}
+
+.mapboxgl-ctrl-icon {
+  @apply block mx-auto;
+}

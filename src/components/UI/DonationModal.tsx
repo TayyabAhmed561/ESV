@@ -81,7 +81,7 @@ const DonationModal: React.FC<DonationModalProps> = ({ isOpen, onClose, species 
             <div>
               <h2 className="text-2xl font-bold text-gray-900">Make a Donation</h2>
               <p className="text-gray-600">
-                {species ? `Support ${species.commonName} conservation` : 'Support endangered species conservation'}
+                {species ? `Support ${species.name} conservation` : 'Support endangered species conservation'}
               </p>
             </div>
           </div>
@@ -107,16 +107,10 @@ const DonationModal: React.FC<DonationModalProps> = ({ isOpen, onClose, species 
           {species && (
             <div className="bg-emerald-50 p-4 rounded-lg border border-emerald-200">
               <div className="flex items-center gap-4">
-                <img
-                  src={species.image}
-                  alt={species.commonName}
-                  className="w-16 h-16 object-cover rounded-lg"
-                />
                 <div>
-                  <h3 className="font-semibold text-gray-900">{species.commonName}</h3>
-                  <p className="text-sm text-gray-600 italic">{species.scientificName}</p>
+                  <h3 className="font-semibold text-gray-900">{species.name}</h3>
                   <span className="inline-block px-2 py-1 bg-red-100 text-red-800 rounded text-xs font-medium mt-1">
-                    {species.conservationStatus.replace('_', ' ').toUpperCase()}
+                    {species.status.toUpperCase()}
                   </span>
                 </div>
               </div>

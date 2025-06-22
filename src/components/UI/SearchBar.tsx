@@ -1,102 +1,137 @@
-import React, { useState, useEffect } from 'react';
-import { Search, X } from 'lucide-react';
+import React, { useState, useRef, useEffect } from 'react';
+import { Search, X, MapPin } from 'lucide-react';
 import { Species } from '../../types/species';
 
 interface SearchBarProps {
   species: Species[];
   onSearchResults: (results: Species[]) => void;
+  onSpeciesSelect?: (species: Species) => void;
   placeholder?: string;
 }
 
-const SearchBar: React.FC<SearchBarProps> = ({ 
-  species, 
-  onSearchResults, 
-  placeholder = "Search for species..." 
+const SearchBar: React.FC<SearchBarProps> = ({
+  species,
+  onSearchResults,
+  onSpeciesSelect,
+  placeholder = 'Search species...'
 }) => {
   const [query, setQuery] = useState('');
+  const [isExpanded, setIsExpanded] = useState(false);
   const [suggestions, setSuggestions] = useState<Species[]>([]);
-  const [showSuggestions, setShowSuggestions] = useState(false);
+  const containerRef = useRef<HTMLDivElement>(null);
+  const inputRef = useRef<HTMLInputElement>(null);
 
+  // Filter suggestions and notify parent on query change
   useEffect(() => {
     if (query.trim()) {
-      const filtered = species.filter(s => 
-        s.commonName.toLowerCase().includes(query.toLowerCase()) ||
-        s.scientificName.toLowerCase().includes(query.toLowerCase())
+      const filtered = species.filter(s =>
+        s.name.toLowerCase().includes(query.toLowerCase())
       );
       setSuggestions(filtered);
-      setShowSuggestions(true);
       onSearchResults(filtered);
     } else {
       setSuggestions([]);
-      setShowSuggestions(false);
       onSearchResults(species);
     }
   }, [query, species, onSearchResults]);
 
-  const handleSelectSpecies = (selectedSpecies: Species) => {
-    setQuery(selectedSpecies.commonName);
-    setShowSuggestions(false);
-    onSearchResults([selectedSpecies]);
+  // Collapse on click outside
+  useEffect(() => {
+    if (!isExpanded) return;
+    const handleClick = (e: MouseEvent) => {
+      if (containerRef.current && !containerRef.current.contains(e.target as Node)) {
+        setIsExpanded(false);
+      }
+    };
+    document.addEventListener('mousedown', handleClick);
+    return () => document.removeEventListener('mousedown', handleClick);
+  }, [isExpanded]);
+
+  // Expand and focus input
+  const handleExpand = () => {
+    setIsExpanded(true);
+    setTimeout(() => inputRef.current?.focus(), 100);
   };
 
+  // Select a species
+  const handleSelect = (s: Species) => {
+    setQuery(s.name);
+    setIsExpanded(false);
+    setSuggestions([]);
+    if (onSpeciesSelect) onSpeciesSelect(s);
+  };
+
+  // Clear search
   const clearSearch = () => {
     setQuery('');
     setSuggestions([]);
-    setShowSuggestions(false);
+    setIsExpanded(false);
     onSearchResults(species);
   };
 
+  // Keyboard navigation
+  const handleKeyDown = (e: React.KeyboardEvent) => {
+    if (e.key === 'Escape') {
+      clearSearch();
+    }
+  };
+
+  // Compact button
+  if (!isExpanded) {
+    return (
+      <button
+        onClick={handleExpand}
+        className="flex items-center justify-center w-10 h-10 bg-white/80 backdrop-blur-sm rounded-lg shadow-lg border border-emerald-200/50 hover:bg-white transition-colors text-gray-900"
+        title="Search species"
+      >
+        <Search className="w-5 h-5 text-emerald-600" />
+      </button>
+    );
+  }
+
+  // Expanded search bar
   return (
-    <div className="relative w-full max-w-md">
+    <div className="relative w-80" ref={containerRef}>
       <div className="relative">
-        <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 text-emerald-600 w-5 h-5" />
+        <Search className="absolute left-2 top-1/2 transform -translate-y-1/2 text-emerald-600 w-4 h-4" />
         <input
+          ref={inputRef}
           type="text"
           value={query}
-          onChange={(e) => setQuery(e.target.value)}
+          onChange={e => setQuery(e.target.value)}
+          onKeyDown={handleKeyDown}
           placeholder={placeholder}
-          className="w-full pl-10 pr-10 py-3 border-2 border-emerald-200 rounded-lg 
-                   focus:border-emerald-500 focus:outline-none focus:ring-2 focus:ring-emerald-100
-                   bg-white shadow-sm transition-all duration-200"
+          className="w-full pl-8 pr-8 py-2 text-sm border-2 border-emerald-200 rounded-lg focus:border-emerald-500 focus:outline-none focus:ring-2 focus:ring-emerald-100 bg-white shadow-sm transition-all duration-200"
         />
         {query && (
           <button
             onClick={clearSearch}
-            className="absolute right-3 top-1/2 transform -translate-y-1/2 text-gray-400 
-                     hover:text-gray-600 transition-colors"
+            className="absolute right-2 top-1/2 transform -translate-y-1/2 text-gray-400 hover:text-gray-600 transition-colors"
           >
-            <X className="w-5 h-5" />
+            <X className="w-4 h-4" />
           </button>
         )}
       </div>
-
-      {showSuggestions && suggestions.length > 0 && (
-        <div className="absolute top-full left-0 right-0 mt-1 bg-white border border-emerald-200 
-                      rounded-lg shadow-lg z-50 max-h-60 overflow-y-auto">
-          {suggestions.map((species) => (
+      {/* Suggestions */}
+      {isExpanded && query.trim() && suggestions.length > 0 && (
+        <div className="absolute top-full left-0 right-0 mt-1 bg-white border border-emerald-200 rounded-lg shadow-lg z-50 max-h-48 overflow-y-auto">
+          {suggestions.map((s, i) => (
             <button
-              key={species.id}
-              onClick={() => handleSelectSpecies(species)}
-              className="w-full px-4 py-3 text-left hover:bg-emerald-50 transition-colors
-                       border-b border-emerald-100 last:border-b-0 group"
+              key={s.name + i}
+              onClick={() => handleSelect(s)}
+              className="w-full px-3 py-2 text-left hover:bg-emerald-50 transition-colors border-b border-emerald-100 last:border-b-0 group text-sm"
             >
-              <div className="font-medium text-gray-900 group-hover:text-emerald-700">
-                {species.commonName}
-              </div>
-              <div className="text-sm text-gray-500 italic">
-                {species.scientificName}
-              </div>
-              <div className="text-xs text-emerald-600 mt-1 capitalize">
-                {species.type} • {species.conservationStatus.replace('_', ' ')}
+              <div className="font-medium text-gray-900 group-hover:text-emerald-700">{s.name}</div>
+              <div className="text-xs text-emerald-600 mt-0.5 capitalize flex items-center justify-between">
+                <span>{s.category} • {s.status}</span>
+                {s.coordinates && <MapPin className="w-3 h-3 text-emerald-500 opacity-0 group-hover:opacity-100 transition-opacity" />}
               </div>
             </button>
           ))}
         </div>
       )}
-
-      {showSuggestions && suggestions.length === 0 && query.trim() && (
-        <div className="absolute top-full left-0 right-0 mt-1 bg-white border border-emerald-200 
-                      rounded-lg shadow-lg z-50 p-4 text-center text-gray-500">
+      {isExpanded && query.trim() && suggestions.length === 0 && (
+        <div className="absolute top-full left-0 right-0 mt-1 bg-white border border-emerald-200 rounded-lg shadow-lg z-50 p-3 text-center text-gray-500 text-sm">
           No species found matching "{query}"
         </div>
       )}
